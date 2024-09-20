@@ -1,90 +1,72 @@
-let hour = 24 
-let minut = 60 
-let sec = 60 
-console.log ( `в сутках ${hour*minut*sec} секунд`)
+console.log (`Задание 1`)
+
+let mounth = 5 //prompt (`Введите число от 1 до 12`)
+
+let mounths = [ `январь`, `февраль`,`март`,`апрель`,`май`,`июнь`,`июль`,`август`,`сентябрь`,`октябрь`,`ноябрь`,`декабрь`];
+console.log(mounths[mounth-1]);
 
 
-let hour2 =24 
-let minut2 =60
-let sec2 = 60
 
-console.log (`в 30 сутках ${hour2*30*minut2*sec2} секунд`)
+console.log(`Задание 2`) 
+let  dostavka  = 1050 
+let tovar1 =  [`15000 Процессор`, dostavka];
+let tovar2 =  [`25000 Видеокарта`, dostavka]; 
+let tovar3 =  [`5000 Блок питания`, dostavka]; 
 
-let hour3 =24 
-let minut3 =60
-let sec3 = 60
+let sum = tovar1[2]+tovar2[2]+tovar3[2]+tovar1[0]+tovar2[0]+tovar3[0]
 
-console.log (`в году ${hour3*365*minut3*sec3} секунд`)
-
-let hour4 =24 
-let minut4 =60
-
-console.log (`в сутках ${hour4*minut4} минут`)
-
-let hour5 = 24
-let minut5 =60 
-
-console.log (`в году ${hour4*365*minut4} минут`)
-
-let byte = 1024 
-let Kb = 1024 
-
-console.log (`в 1 мегабайте ${byte*Kb} байт`)
-
-let b2 = 1024 
-let Kib = 1024
-let Mb = 1024 
-
-console.log (`в 1 гигабайте ${b2*Kib*Mb} байт`)
-
-let byt = 1024 
-let Kilobyte= 1024
-let Megabyte = 1024 
-
-console.log (`в 10 гигабайтах ${byt*Kilobyte*Megabyte*10} байт`)
-
-let byt2 = 1024 
-let Kibt = 1024
-let Mebt = 1024 
-let GB = 1024 
-
-console.log (`в 1 терабайте  ${byt2*Kidt*Megbt*Gb} байт`)
-
-
-let Kibit = 1024 
-let Megabt = 1024 
-let Gibt =1024 
-
-console.log (`в 1 терабайте  ${kibit*Megsbt*Gigb} килобайт`)
+console.log(`Общая сумма товара равна ${sum}`); 
 
 
 
 
-
-let r = 6; 
-const pi = 3.14 
-let s = (Math.PI * r ** 2).toFixed (2); 
-console.log(`Площадь круга при радиусе ${r} равна ${s}`)
-
-let a = 6;  
-s = a ** 2;
-console.log(`Площадь квадрата со стороной ${a} равна ${s}`)
-
-let b = 9 
-s = a * b 
-console.log(`Площадь прямоугольника со стронами ${a} и {b} равна ${a} равна {s}`)
+console.log(`Задание 3`)
 
 
+let arr =  [25,30,6,9,8]
+
+console.log (`Максимальное число из массива [25,30,6,9,8] равно ${Math.max(...arr)}`)
+console.log (`Минимальное число из массива  [25,30,6,9,8] равно ${Math.min.apply.arr}`)
+
+console.log (`Задание 4`)
+
+console.log
+arr = [
+ Math.floor(Math.random()*10+1),
+ Math.floor(Math.random()*10+1),
+ Math.floor(Math.random()*10+1),
+ Math.floor(Math.random()*10+1),
+ Math.floor(Math.random()*10+1)
+
+ ]
 
 
-let num = 56728 
-let str =String(num)
-console. log(num % 10)
+ console.log(arr)
+console.log(arr.sort())
+console.log(arr.sort().reverse())
+
+console.log(`Задание 5`) 
+arr =[ "H1", "Hello", "Bonjour" ] 
+console.log(arr)
+arr.push(`Hola`)
+console.log(arr)
 
 
-let arr = ['a', 'b', 'c', 'd']; 
-console.log(arr[0]+$arr[1] )  
 
 
-let arr2 = ['a', 'b', 'c', 'd', 'e'];
-delete arr[1];
+console.log(`Задание 6`)
+let a = [`a`, `b`, `c `];
+let b = [1,2,3]; 
+console.log(`Массив a = ${a}`)
+console.log(`Массив b =${b}`)
+console.log(a.concat(b))
+
+console.log(`Задание 8`)
+const fruits = [`Banana`, `Orange`, `Apple`, `Mango`]
+console.log(fruits)
+console.log(fruits.includes(`Banana`))
+
+console.log(`Задание 9`)
+const array = [2,5,9]
+console.log(array)
+
